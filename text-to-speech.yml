@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  text-to-speech:
+    lang: Dockerfile
+    handler: ./text-to-speech
+    image: text-to-speech
