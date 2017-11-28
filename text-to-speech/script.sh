@@ -1,2 +1,2 @@
 #!/bin/sh
-python /usr/local/bin/gtts-cli.py - -l 'en' -o temp.mp3 && cat temp.mp3
+python /usr/local/bin/gtts-cli.py - -l 'en' -o /tmp/temp.mp3 && cat /tmp/temp.mp3
