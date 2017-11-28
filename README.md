@@ -4,11 +4,11 @@
 
 ## Deploying the function
 
-Be sure to follow the instructions on the [FaaS repo](https://github.com/alexellis/faas) to deploy the Faas stack.
+Be sure to follow the instructions on the [FaaS repo](https://github.com/openfaas/faas) to deploy the Faas stack.
 
 **Get the CLI**
 
-You can install the [faas-cli](https://github.com/alexellis/faas-cli/) via `brew install faas-cli` or `curl -sSL https://get.openfaas.com | sudo sh`.
+You can install the [faas-cli](https://github.com/openfaas/faas-cli/) via `brew install faas-cli` or `curl -sSL https://get.openfaas.com | sudo sh`.
 
 **Build and deploy**
 
