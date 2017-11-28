@@ -1,2 +1,3 @@
 #!/bin/sh
-python /usr/local/bin/gtts-cli.py - -l 'en' -o /tmp/temp.mp3 && cat /tmp/temp.mp3
+UUID=$(cat /proc/sys/kernel/random/uuid)
+python /usr/local/bin/gtts-cli.py - -l 'en' -o /tmp/$UUID.mp3 && cat /tmp/$UUID.mp3
