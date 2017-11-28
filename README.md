@@ -15,8 +15,8 @@ You can install the [faas-cli](https://github.com/alexellis/faas-cli/) via `brew
 Build and deploy your stack using the following commands:
 
 ```
-$ faas-cli -action build -f text-to-speech.yml
-$ faas-cli -action deploy -f text-to-speech.yml
+$ faas-cli build -f text-to-speech.yml
+$ faas-cli deploy -f text-to-speech.yml
 ```
 
 **Test**
