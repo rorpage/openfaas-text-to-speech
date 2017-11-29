@@ -24,11 +24,14 @@ $ faas-cli deploy -f text-to-speech.yml
 Using `curl`, you can send a string to the function to generate an MP3 of speech:
 
 ```
-$ curl http://localhost:8080/function/text-to-speech -d 'This is a test of OpenFaaS text to speech!' > output.mp3
+$ curl http://localhost:8080/function/text-to-speech \
+-d 'This is a test of OpenFaaS text to speech!' > output.mp3
 ```
 
 Also, you can optionally provide an `X-Language` header for a different language:
 
 ```
-$ curl http://localhost:8080/function/text-to-speech -H 'X-Language: en-uk' -d 'This is a test of OpenFaaS text to speech!' > output.mp3
+$ curl http://localhost:8080/function/text-to-speech \
+-H 'X-Language: en-uk' \
+-d 'This is a test of OpenFaaS text to speech!' > output.mp3
 ```
