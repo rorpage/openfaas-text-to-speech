@@ -35,3 +35,5 @@ $ curl http://localhost:8080/function/text-to-speech \
 -H 'X-Language: en-uk' \
 -d 'This is a test of OpenFaaS text to speech!' > output.mp3
 ```
+
+A list of supported languages is [here](https://github.com/pndurette/gTTS#lang_list).
