@@ -6,4 +6,4 @@ functions:
   text-to-speech:
     lang: Dockerfile
     handler: ./text-to-speech
-    image: text-to-speech
+    image: rorpage/text-to-speech

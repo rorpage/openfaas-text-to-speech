@@ -7,9 +7,10 @@ RUN apk --no-cache add curl sudo \
 
 RUN sudo -H pip install gTTS
 
+ENV cgi_headers true
+ENV fprocess "sh script.sh"
+
 COPY script.sh .
 RUN chmod a+x script.sh
-
-ENV fprocess="./script.sh"
 
 CMD ["fwatchdog"]
